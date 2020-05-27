@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact</title>
+    <!-- inclure le CSS Bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/cv.css">
+
+
+</head>
+<body>
+<HEADER>
+    <h1>Vandaele Bilal</h1>
+    <h2>Developpeur Web et mobile</h2>
+    <p>Recherche de stage pour la formation de <br/>
+        Développeur Web et Web Mobile <br/>
+        effectué auprès du Greta Grand Hainaut</p>
+
+</HEADER>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html" >Acceuil</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="Potefolio.html">PorteFolio</a>
+            <a class="nav-item nav-link" href="ExpereincePro.html">Experiences Profesionnelles</a>
+            <a class="nav-item nav-link" href="Competence.html">Competences</a>
+            <a class="nav-item nav-link" href="Formation.html">Formation</a>
+            <a class="nav-item nav-link active" href="Contact.html" style="color: red">Contact<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="PDF/CVDeveloppeurWeb.pdf" download="PDF/CVDeveloppeurWeb.pdf">CV PDF</a>
+
+        </div>
+    </div>
+</nav>
+
+    <form method="post" action="mailto:vandaelebilal@gmail.com">
+    <fieldset>
+        <legend>Me Contacter</legend>
+        <label for="nom">NOM</label><br/>
+        <input id="nom" type="text"  minlength="2" maxlength="30" pattern="[a-zA-Z]+" required/><br/>
+        <label for="prenom">Prenom</label><br/>
+        <input id="prenom" type="text"  minlength="2" maxlength="30" pattern="[a-zA-Z]+" required/><br/>
+        <label for="mail">Email</label><br/>
+        <input id="mail" type="email" maxlength="100" required/><br/>
+        <label for="message">Votre Message</label><br/>
+        <textarea id="message" maxlength="300" placeholder="Saisir votre message ici" rows="6"></textarea><br/>
+        <button type="submit"> Envoyer </button>
+        <button type="reset">Annuler</button>
+    </fieldset>
+</form>
+
+<footer>
+    Created by : <strong>Bilal_KLZ</strong>
+</footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("../image/brickwall1.png");
+    background-color: black;
+    color: white;
+height: 25vh;
+
+text-align: center;
+font-size: 2vh;
+
+}
+nav{
+    background-color: #060325;
+}
+section{
+    display: flex;
+justify-content: center;}
+article{margin: 2vh ;
+    display: flex;
+justify-content: center;
+width: 20vw}
+
+@media(max-width:1030px){
+    img{width: 80vw;
+        height: 50vh;
+    max-height:1031px;
+    max-width: 840px}
+}
+@media (min-width: 1031px){
+    img{height:500px ;
+        width: 840px;
+        }
+
+}
+article{margin:0}
+.competence{
+    height: 5vw;
+    width: 5vw;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #060325;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+form{
+
+    height: 65vh;
+    background-size: 100vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    border: solid white 1px ;
+    color: white;
+    max-height: 70vh;
+    width: 30vw;
+    text-align: center;
+    background-color: #060325;
+}
+textarea,input{
+    max-height: 30vh;
+    width: 20vw;
+}
+legend{
+    color: red;
+}
+
+.entreprise{
+    width: 200px;
+    height: 200px;
+}
